@@ -1,0 +1,24 @@
+development:
+  adapter: mysql2
+  enconding: utf8
+  reconnect: false
+  database: transparency_form_dev
+  username: rails
+  password: password
+  host: localhost
+test:
+  adapter: mysql2
+  enconding: utf8
+  reconnect: false
+  database: transparency_form_test
+  username: rails
+  password: password
+  host: localhost
+production:
+  adapter: mysql2
+  enconding: utf8
+  reconnect: false
+  database: transparency_form_production
+  username: rails
+  password: password
+  host: localhost
